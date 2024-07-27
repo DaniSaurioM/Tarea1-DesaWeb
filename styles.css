@@ -1,0 +1,111 @@
+
+.font-digit {
+    font-family: "clockicons";
+}
+
+
+body {
+    background-color: #70f; 
+    color: #70f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0; 
+}
+
+
+.cronometro {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xxx-large;
+    background-color: #0f1620; 
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08) inset, 0 1px 1px #49586b; 
+    border: 5px ridge #0f1620; 
+    padding: 20px; 
+    box-sizing: border-box; 
+    border-radius: 15px; 
+}
+
+
+.container {
+    margin-bottom: 20px;
+    background-color: #272e38; 
+    border: 5px ridge #272e38;
+    padding: 40px; 
+    box-sizing: border-box; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    border-radius: 20px; 
+}
+
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #0f1620; 
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08) inset, 0 1px 1px #49586b; 
+    border-radius: 15px; 
+    border: 5px ridge #0f1620; 
+    padding: 10px;
+    display: inline-block; 
+}
+
+
+.ctrlBtn {
+    background-color: black; 
+    border: 2px solid gray; 
+    color: #70f;
+    padding: 10px;
+    font-size: medium; 
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px; 
+    font-family:  'Press Start 2P', cursive;; 
+}
+
+
+.ctrlBtn:hover {
+    background-color: #555; 
+}
+
+.container-tabla {
+    background-color: #272e38; 
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08) inset, 0 1px 1px #49586b; 
+    border-radius: 20px; 
+    border: 5px ridge #0f1620; 
+    padding: 20px; 
+    display: inline-block; 
+    margin: 20px auto; 
+}
+
+
+.tabla-vueltas {
+    width: 100%;
+    max-width: 800px; 
+    border-collapse: collapse; 
+    margin: 0 auto; 
+    background-color: #272e38; 
+    color: #70f; 
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.tabla-vueltas th {
+    border: 2px ridge #0f1620; 
+    padding: 15px; 
+    text-align: center; 
+    font-size: 1.5em;
+    background-color: #0f1620; 
+    color: #70f; 
+}
+
+/* Celdas de la tabla */
+.tabla-vueltas td {
+    border: 2px ridge #0f1620; 
+    padding: 12px; 
+    text-align: center; 
+    background-color: #0f1620; 
+    font-size: 1.2em;
+}

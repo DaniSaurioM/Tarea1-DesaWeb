@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<td></td>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div id="cronometro" class="font-digit cronometro">
+            <span id="Horas">00</span>:<span id="Minutos">00</span>:<span id="Segundos">00</span>:<span id="Centesimas">00</span>
+        </div>
+        <div class="buttons">
+            <button id="btnIniciar" class="ctrlBtn">Iniciar</button>
+            <button id="btnParar" class="ctrlBtn">Parar</button>
+            <button id="btnContinuar" class="ctrlBtn">Continuar</button>
+            <button id="btnVuelta" class="ctrlBtn">Vuelta</button>
+            <button id="btnReset" class="ctrlBtn">Reset</button>
+        </div>
+    </div>
+    <div class="container-tabla">
+        <table id="tablaVueltas" class="font-digit tabla-vueltas">
+            <thead>
+                <tr>
+                    <th>Vuelta</th>
+                    <th>Tiempo</th>
+                </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
+    <script src="cronometro.js">
+    </script>
+</body>
+
+</html>
